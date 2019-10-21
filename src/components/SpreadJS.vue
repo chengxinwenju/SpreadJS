@@ -11,8 +11,6 @@
       <gc-spread-sheets
         hostClass='spread-host'
         @workbookInitialized='workbookInitialized($event)'>
-        <gc-worksheet>
-        </gc-worksheet>
       </gc-spread-sheets>
     </div>
   </div>
@@ -35,7 +33,7 @@
 
   export default {
     created() {
-      this.openLayUi();
+      // this.openLayUi();
     },
     methods: {
       processFile(event) {
